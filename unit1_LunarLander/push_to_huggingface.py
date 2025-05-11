@@ -16,13 +16,13 @@ model_name = "dqn-LunarLander-v2"
 model_path = "dqn-LunarLander-v2.zip"  # 假設檔案在同一目錄下
 
 # 載入已訓練的模型
-model = DQN.load(model_path)
+model = DQN.load(model_path) #PPO.load(model_path)
 
 # Create the evaluation env and set the render_mode="rgb_array"
 eval_env = DummyVecEnv([lambda: Monitor(gym.make(env_id, render_mode="rgb_array"))])
 
 # Define the model architecture we used
-model_architecture = "DQN"
+model_architecture = "DQN" # "PPO"
 
 ## Define the commit message
 commit_message = "unit1"

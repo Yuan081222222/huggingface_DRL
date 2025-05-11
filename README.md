@@ -1,6 +1,3 @@
-# course link
-[Huggingface](https://huggingface.co/learn/deep-rl-course/unit0/introduction)
-
 # useful links
 [Leaderboard](https://huggingface.co/spaces/preslaff/Deep-Reinforcement-Learning-Leaderboard)
 
